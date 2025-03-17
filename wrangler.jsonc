@@ -9,7 +9,12 @@
 	"compatibility_date": "2025-03-13",
 	"observability": {
 		"enabled": true
-	}
+	},
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "ai": {"binding": "AI"}
+}
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
@@ -44,4 +49,4 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-}
+
